@@ -1,0 +1,438 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.contaner {
+    padding: 5px 10px 0px 10px;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(102, 102, 102);
+}
+
+header {
+    min-width: 90vw;
+    height: 60px;
+    padding-left: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav_sideContaner {
+    min-width: 550px;
+    display: flex;
+    justify-content: space-around;
+    padding-top:10px ;
+    align-items: center;
+}
+
+.hov ,.active {
+    padding-bottom: 15px;
+}
+
+.hov:active {
+    color: blue;
+}
+
+.hov:hover {
+    border-bottom: 2px solid blue;
+    text-align: center;
+    transition-duration: -0.5s;
+}
+
+.active {
+    border-bottom: 2px solid blue;
+}
+
+.getStart {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 130px;
+    height: 42px;
+    border-radius:10px;
+    border: none;
+}
+
+main {
+    padding: 20px 0px 0px 20px;
+}
+
+.top_side {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    gap: 10px;
+    background-color: rgb(239, 232, 232);
+    border-radius: 10px;
+}
+
+.left_side {
+    width: auto;
+}
+
+.infoShort {
+    display: grid;
+    gap: 25px;
+}
+
+.infoP {
+    background-color: rgb(198, 198, 244);
+    display: flex;
+    color: rgb(60, 60, 239);
+    width: 180px;
+    border-radius: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textblue {
+    color: blue;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content:start;
+    gap: 14px;
+    width: 100%;
+}
+.watchD {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    min-width: 150px;
+    height: 42px;
+    border-radius:10px;
+}
+.watchD:active {
+    border:none;
+    background-color: blue;
+    color: white;
+}
+
+.creatorsInfo {
+    display: flex;
+    gap: 10px;
+}
+
+.one_ByOne {
+    width: 80px;
+    display: flex;
+}
+
+.crirle {
+    background-color: grey;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.custmeR {
+    color: rgb(100,100,100);
+}
+
+.rightImagde {
+    width: 50%;
+    border-radius: 15px;
+    background-color: gray;
+}
+
+.infoFuture {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+}
+
+.infocanter {
+    width: 180px;
+    height: 120px;
+    text-align: center;
+}
+
+.text {
+    padding: 5px;
+}
+
+.text_pre {
+    padding-top: 10px;
+}
+
+.middle_side {
+    display: flex;
+    height: 300px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.left_image {
+    width:50%;
+    border-radius: 15px;
+    background-color: rgb(143, 137, 137);
+}
+
+.rightMeddle {
+    padding-left: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+.OurPlatfrom,.testmoni {
+    background-color: rgb(198, 198, 244);
+    display: flex;
+    color: rgb(55, 55, 243);
+    width: 120px;
+    border-radius: 25px;
+    height: 18px;
+    align-items: center;
+    font-size: 0.75rem;
+    justify-content: center;
+}
+
+.ourThinks {
+    color: rgb(102,103,104);
+}
+
+.ourWork {
+    padding-left: 15px;
+}
+
+li::marker {
+    font-size: 1.5rem;
+    color: black;
+}
+
+li {
+    color: grey;
+}
+
+.learnMore {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    width: 130px;
+    height: 42px;
+    border-radius:10px;
+    border: none;
+}
+
+.bottom_side {
+    height: 270px;
+    padding: 10px 10px 10px 20px;
+    display: grid;
+    gap: 2px;
+}
+
+.custmerRewie {
+    height: 10px;
+}
+
+.custmer_Contaner {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    width: 100%;
+}
+
+.profileImage {
+    width: 45px;
+    height: 45px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.aboutBox {
+    width: 300px;
+    height: 160px;
+    border: 1px solid black;
+}
+
+
+.getstart_Contaner {
+    height: 80px;
+    width: 95%;
+    padding:0px 0px 20px 40px;
+}
+
+.PersanReview_Contaner {
+    display: flex;
+    height: 80px;
+    gap: 10px;
+}
+
+.novaWork {
+    width: 200px;
+    height: 80px;
+}
+
+.getstart_MiniContaner {
+    padding: 5px 20px 5px 60px;
+    height: 70px;
+    width: 85%;
+    background-color: rgba(61, 61, 235, 0.825);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_sideText ,.getstart_Contaner_readyToDO ,.getstart_Contaner_Descreption {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    min-width: auto;
+}
+
+.getstart_Contaner_readyToDO {
+    height: 15px;
+    padding-bottom: 10px;
+}
+
+.getstart_ContanerGetstart {
+    background-color: white;
+    color: blue;
+}
+
+footer {
+    width: 96%;
+    height: 80px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footerSIdeConter {
+    padding: 0px 50px 0px 50px;
+    height: 70px;
+    background-color: rgb(0, 0, 53);
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_BoxLeft {
+    background-color:#ffffff00;
+}
+
+.Nov ,.footerSIdeConter_ButtonLine{
+    color: white;
+    background-color: #ffffff00;
+    font-size: 1.5rem;
+}
+
+.footerSIdeConter_ButtonLine {
+    padding-top: 5px;
+    font-size: 0.70rem;
+}
+
+.middleSenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0 ,0, 54);
+
+}
+
+.navBottem {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    gap: 10px;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+
+.footernav,.whiteD  {
+    background-color: #ffffff00;
+    color: white;
+    font-size: 0.90rem;
+}
+
+.whiteD {
+    padding-top: 15px;
+    color: gray;
+    font-size: 0.80rem;
+    text-align: center;
+}
+
+.Sosalmedie {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    background-color: rgb(0 ,0, 54);
+}
+
+.linkSM {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: gray;
+}
+
+.profileImageReviwe {
+    display: flex;
+}
+
+@media (max-width:786px) {
+    .top_side {
+        width: 786px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr;
+    }
+
+    .X ,.Phone {
+        width: 0px;
+        height: 0px;
+        background-color: none;
+    }
+    .left_side {
+        grid-row: 1/1;
+        grid-column: 1/1;
+    }
+
+    .custmer_Contaner {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 200px 200px 200px;
+        width: 766px;
+        align-items: center;
+    }
+
+    .aboutBox {
+        width: 200px;
+        height: 180px;
+    }
+
+    .PersanReview_Contaner {
+        padding-bottom: 5px;
+        margin-bottom: 2px;
+        height: 100px;
+    }
+
+    .AbuotWork {
+        padding-left: 10px;
+    }
+
+    .Sosalmedie {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+.aboutBox {
+    width: auto;
+}
